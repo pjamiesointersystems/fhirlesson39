@@ -13,7 +13,7 @@
 
 #### Access the portal user page under connect users (to make a user to we can access the FHIR portal)
 
-![alt text](userimage.png)
+![alt text](connect.png)
 
 ### Create a user 
 ![alt text](createuserimage.png)

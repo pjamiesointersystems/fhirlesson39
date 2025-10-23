@@ -1,0 +1,17 @@
+flask>=2.0.3
+python-dotenv>=0.19.2
+authlib>=1.0
+# FHIR R4-compatible libraries
+fhir.resources==6.1.0
+
+# Required Pydantic version for fhir.resources 6.1.0
+pydantic<2.0
+
+# Optional: requests library for interacting with FHIR servers
+requests>=2.20.0,<3.0.0
+
+# Add fhirpath-py for FHIRPath expressions
+fhirpathpy
+
+# Add Textual Support for a simple front end framework
+textual>=0.50

@@ -1,0 +1,7 @@
+{
+  // Always use this venv for this repo
+  "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python3.12",
+  "python.venvPath": "${workspaceFolder}/venv",
+  "python.venvFolders": ["venv"],
+  
+}

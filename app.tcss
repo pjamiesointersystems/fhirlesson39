@@ -1,0 +1,20 @@
+#controls {
+    dock: top;
+    height: auto;
+    padding: 1 2;
+    content-align: left top;
+}
+
+Button {
+    margin: 0 1;
+    padding: 0 2;
+    border: round;
+}
+
+#status {
+    margin-left: 1;
+    padding-left: 2;
+    padding-right: 2;
+    margin-top: 1;
+    content-align: left middle;
+}

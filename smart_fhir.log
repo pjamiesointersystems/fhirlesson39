@@ -1,0 +1,32 @@
+2025-10-23 10:00:49,900 - INFO - Starting SMART on FHIR PKCE flow …
+2025-10-23 10:00:50,071 - INFO - Browser opened → https://dev-1h5yru1mv5rucu2k.us.auth0.com/authorize?response_type=code&client_id=fIv1uGKhCXanH4iVcTNagE3eFLFIfPDb&redirect_uri=http%3A%2F%2F127.0.0.1%3A8900%2Fcallback&scope=openid+profile+user%2F%2A.%2A&state=lpgPXZEyu7f1uH3Wvk2YkC9bKQLl6L&audience=https%3A%2F%2Firis.rpaihtnv03ms.sandbox-eng-paas.isccloud.io%2Fcsp%2Fhealthshare%2Ffhir%2Ffhir%2Fr4a&prompt=consent
+2025-10-23 10:01:40,386 - INFO - Authorization code received: 6oY258o1HLM-LapTtK3fnE6dtrlgjMlLppS_16pVvnmoI
+2025-10-23 10:01:40,762 - INFO - Full token response: {
+  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1sbnV0ZW94MlBmcmFlS3pUOXJXciJ9.eyJwYXRpZW50IjoiMSIsImlzcyI6Imh0dHBzOi8vZGV2LTFoNXlydTFtdjVydWN1MmsudXMuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDYzZGJiMmJiOTkxMWJmYjVlNzkzNWQ5YSIsImF1ZCI6WyJodHRwczovL2lyaXMucnBhaWh0bnYwM21zLnNhbmRib3gtZW5nLXBhYXMuaXNjY2xvdWQuaW8vY3NwL2hlYWx0aHNoYXJlL2ZoaXIvZmhpci9yNGEiLCJodHRwczovL2Rldi0xaDV5cnUxbXY1cnVjdTJrLnVzLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE3NjEyMjgxMDAsImV4cCI6MTc2MTMxNDUwMCwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSB1c2VyLyouKiIsImF6cCI6ImZJdjF1R0toQ1hhbkg0aVZjVE5hZ0UzZUZMRklmUERiIn0.r0apiEgw6YkIQG1xlZQPkpEC6z7SLkNlS5VLf352Z4A3DoEzQvnx3Xa_4rODOVmbXLyu8df0g83H7CAy6vJUO8auWAqO5tgsD3WSf4M7FQxSM16d4fpgtJQ8RLD04bWBNJsJetu5gPLN1lFhyNmzjmxSuLTyZXubHmU77qI-pSIOaVGouDnzxULOLJxlNmbVfpP5uZycnTQHbdV-Ku_oYVRhVCl4doePzhGZcyAbzsRdRhSeoymblBp0adXcRyedG7Qeyx67z-RBzEqdr5ILfG4gafOjUvwyFxeptNVmpHxgU-NjMyzvH2Xa7HUj_7IlRhZUhFIR4SMeJyl7-hmQ2Q",
+  "id_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1sbnV0ZW94MlBmcmFlS3pUOXJXciJ9.eyJuaWNrbmFtZSI6InBhdHJpY2suamFtaWVzb24iLCJuYW1lIjoicGF0cmljay5qYW1pZXNvbkBpbnRlcnN5c3RlbXMuY29tIiwicGljdHVyZSI6Imh0dHBzOi8vcy5ncmF2YXRhci5jb20vYXZhdGFyLzVlMzYxODc0NGVhYzE4NTBjYmMxZDIzZDkxMmE1NTFhP3M9NDgwJnI9cGcmZD1odHRwcyUzQSUyRiUyRmNkbi5hdXRoMC5jb20lMkZhdmF0YXJzJTJGcGEucG5nIiwidXBkYXRlZF9hdCI6IjIwMjUtMTAtMjNUMTQ6MDE6MjEuNDcyWiIsImlzcyI6Imh0dHBzOi8vZGV2LTFoNXlydTFtdjVydWN1MmsudXMuYXV0aDAuY29tLyIsImF1ZCI6ImZJdjF1R0toQ1hhbkg0aVZjVE5hZ0UzZUZMRklmUERiIiwic3ViIjoiYXV0aDB8NjNkYmIyYmI5OTExYmZiNWU3OTM1ZDlhIiwiaWF0IjoxNzYxMjI4MTAwLCJleHAiOjE3NjEyNjQxMDAsInNpZCI6IjdSdURwS0ozUFpwX0dqby1HOUFYMWpfZUptUllMaG1iIn0.P2U4ubYeZWk-sxW_onERVLvjKWKiEjD3p10S-ZOyIydlOMvYFns9ws3WoyDE21ZXbCoaFGCrvDF0mDRPwmpkY5GoccLuVF2LQkFmN7XlJPpPW5WwB8Zu1CN6Px1EVElgCevkOn9Nf5q7NYVPCkuNS8oK54iMq9t3vjLcjcLwVymddosLbO1OPT2Rhc9cPGnDShudGT8zqQTbuHj3I4SCeth4yFJepG1814t2z1Q8hG4xHYHgL9edTCL43bQE-SKUvQCfUmt7XYpClGT31YXVZJf9ixFqT8j1k3SjslyvW_s68nZSK3177_xeNOPXd_iAFjBl9TS4MuT0835Yl4BTjA",
+  "scope": "openid profile user/*.*",
+  "expires_in": 86400,
+  "token_type": "Bearer",
+  "expires_at": 1761314500
+}
+2025-10-23 10:01:40,762 - INFO - Access token acquired (masked): eyJhbGci…
+2025-10-23 10:01:40,762 - INFO - Login successful
+2025-10-23 10:02:02,435 - INFO - FHIR GET https://iris.rpaihtnv03ms.sandbox-eng-paas.isccloud.io/csp/healthshare/fhir/fhir/r4a/Patient?_maxresults=10
+2025-10-23 10:02:02,435 - INFO - OAuth token (masked): eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1sbnV0ZW94MlBmcmFlS3pUOXJXciJ9.eyJwYXRpZW50IjoiMSIsImlzcyI6Imh0dHBzOi8vZGV2LTFoNXlydTFtdjVydWN1MmsudXMuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDYzZGJiMmJiOTkxMWJmYjVlNzkzNWQ5YSIsImF1ZCI6WyJodHRwczovL2lyaXMucnBhaWh0bnYwM21zLnNhbmRib3gtZW5nLXBhYXMuaXNjY2xvdWQuaW8vY3NwL2hlYWx0aHNoYXJlL2ZoaXIvZmhpci9yNGEiLCJodHRwczovL2Rldi0xaDV5cnUxbXY1cnVjdTJrLnVzLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE3NjEyMjgxMDAsImV4cCI6MTc2MTMxNDUwMCwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSB1c2VyLyouKiIsImF6cCI6ImZJdjF1R0toQ1hhbkg0aVZjVE5hZ0UzZUZMRklmUERiIn0.r0apiEgw6YkIQG1xlZQPkpEC6z7SLkNlS5VLf352Z4A3DoEzQvnx3Xa_4rODOVmbXLyu8df0g83H7CAy6vJUO8auWAqO5tgsD3WSf4M7FQxSM16d4fpgtJQ8RLD04bWBNJsJetu5gPLN1lFhyNmzjmxSuLTyZXubHmU77qI-pSIOaVGouDnzxULOLJxlNmbVfpP5uZycnTQHbdV-Ku_oYVRhVCl4doePzhGZcyAbzsRdRhSeoymblBp0adXcRyedG7Qeyx67z-RBzEqdr5ILfG4gafOjUvwyFxeptNVmpHxgU-NjMyzvH2Xa7HUj_7IlRhZUhFIR4SMeJyl7-hmQ2Q
+2025-10-23 10:02:02,880 - INFO - FHIR response status: 200
+2025-10-23 10:02:02,910 - INFO - Found 10 Patient resources
+2025-10-23 10:02:02,915 - INFO - Loaded 10 patients.
+2025-10-23 10:02:02,915 - INFO - Loaded 10 patients.
+2025-10-23 10:02:02,915 - INFO - Loaded 10 patients.
+2025-10-23 10:02:02,916 - INFO - Loaded 10 patients.
+2025-10-23 10:02:02,916 - INFO - Loaded 10 patients.
+2025-10-23 10:02:02,916 - INFO - Loaded 10 patients.
+2025-10-23 10:02:02,916 - INFO - Loaded 10 patients.
+2025-10-23 10:02:02,917 - INFO - Loaded 10 patients.
+2025-10-23 10:02:02,917 - INFO - Loaded 10 patients.
+2025-10-23 10:02:02,917 - INFO - Loaded 10 patients.
+2025-10-23 10:02:14,582 - INFO - FHIR GET https://iris.rpaihtnv03ms.sandbox-eng-paas.isccloud.io/csp/healthshare/fhir/fhir/r4a/Observation?subject=Patient/1
+2025-10-23 10:02:14,582 - INFO - OAuth token (masked): eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1sbnV0ZW94MlBmcmFlS3pUOXJXciJ9.eyJwYXRpZW50IjoiMSIsImlzcyI6Imh0dHBzOi8vZGV2LTFoNXlydTFtdjVydWN1MmsudXMuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDYzZGJiMmJiOTkxMWJmYjVlNzkzNWQ5YSIsImF1ZCI6WyJodHRwczovL2lyaXMucnBhaWh0bnYwM21zLnNhbmRib3gtZW5nLXBhYXMuaXNjY2xvdWQuaW8vY3NwL2hlYWx0aHNoYXJlL2ZoaXIvZmhpci9yNGEiLCJodHRwczovL2Rldi0xaDV5cnUxbXY1cnVjdTJrLnVzLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE3NjEyMjgxMDAsImV4cCI6MTc2MTMxNDUwMCwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSB1c2VyLyouKiIsImF6cCI6ImZJdjF1R0toQ1hhbkg0aVZjVE5hZ0UzZUZMRklmUERiIn0.r0apiEgw6YkIQG1xlZQPkpEC6z7SLkNlS5VLf352Z4A3DoEzQvnx3Xa_4rODOVmbXLyu8df0g83H7CAy6vJUO8auWAqO5tgsD3WSf4M7FQxSM16d4fpgtJQ8RLD04bWBNJsJetu5gPLN1lFhyNmzjmxSuLTyZXubHmU77qI-pSIOaVGouDnzxULOLJxlNmbVfpP5uZycnTQHbdV-Ku_oYVRhVCl4doePzhGZcyAbzsRdRhSeoymblBp0adXcRyedG7Qeyx67z-RBzEqdr5ILfG4gafOjUvwyFxeptNVmpHxgU-NjMyzvH2Xa7HUj_7IlRhZUhFIR4SMeJyl7-hmQ2Q
+2025-10-23 10:02:14,913 - INFO - Loaded 100 observations for patient 1
+2025-10-23 10:04:28,516 - INFO - SmartAuth: local token cleared.
+2025-10-23 10:04:28,703 - INFO - Logged out
